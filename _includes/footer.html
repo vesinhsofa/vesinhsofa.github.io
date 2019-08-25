@@ -1,0 +1,22 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}"><i class="{{ network.icon}}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <a href="mailto:{{ site.email }}" style="color:#333;"><span class="copyright">Email:
+                        vesinhsofa.vn@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

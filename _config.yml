@@ -1,0 +1,32 @@
+url: http://localhost:4000
+baseurl:
+
+# Site settings
+title: Vệ Sinh Sofa
+email: vesinhsofa.vn@gmail.com
+description: Dịch vụ vệ sinh sofa, các loại ghế, thảm... chuyên nghiệp tại nhà
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: Phone
+    url: tel:0778046360
+    icon: fas fa-phone
+  - title: Github
+    url: https://github.com/vesinhsofa
+    icon: fab fa-github
+  - title: Gmail
+    url: mailto:vesinhsofa.vn@gmail.com
+    icon: fas fa-envelope
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Hà Nội
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+permalink: pretty
